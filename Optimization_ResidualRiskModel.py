@@ -11,11 +11,10 @@ import warnings
 warnings.filterwarnings("ignore")  # Suppress overflow in exponential. We can get exp(-inf) = 0 which is okay for our case.
 
 
-ts1= 80 # First sample time in hours after blood draw
+ts1= 36 # First sample time in hours after blood draw
 tE = 120 # time of expiration
 LE = 1 # Exposure threshold
 Np0 = 1 # Inoculum size
-
 Vp = 300 # Volume of platelet component
 Vs = 8 # Volume of sample for culture
 h1 = 12 # hold time after first smple (hours)
