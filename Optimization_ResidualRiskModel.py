@@ -109,7 +109,7 @@ assert minIndexNormalized == minIndex
 for i in range(len(minIndex)): # In case there are multiple minimums due to the discretization being too coarse.
     idx = minIndex[i]
     print('The optimal second testing time is', ts2Constrained[idx], 'hours.')
-    #print('The total risk is', np.round(TotalRisks[idx],2))
+    print('The total risk is', np.round(TotalRisks[idx],2))
     print('The total risk divided by the number of risky scenarios is', np.round(TotalRisksNormalized[idx],4))
      
 
